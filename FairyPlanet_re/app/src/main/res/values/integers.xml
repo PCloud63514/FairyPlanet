@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="loop_time">5000</integer>
+    <integer name="update_time">60000</integer>
+    <integer name="hungry_point">1</integer>
+    <integer name="tired_point">1</integer>
+</resources>

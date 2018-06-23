@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FairyPlanet_re</string>
+
+    <!--texturePacker-->
+    <string name="image_path">imagePath</string>
+    <string name="width">width</string>
+    <string name="height">height</string>
+    <string name="sprite_name">n</string>
+    <string name="sprite_x">x</string>
+    <string name="sprite_y">y</string>
+    <string name="sprite_width">w</string>
+    <string name="sprite_height">h</string>
+    <string name="sprite_px">pX</string>
+    <string name="sprite_py">pY</string>
+</resources>

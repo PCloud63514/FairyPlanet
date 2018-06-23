@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:65c78dd910e2f1feefdf93c759ee173b:48735f1c3f6c006ee14f1c460d4433d2:b5bcc4b14e48cbd5f85a15f9b327c009$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="alpha.png" width="950" height="440">
+    <sprite n="hungry_1.png" x="6" y="6" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="hungry_2.png" x="141" y="6" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="hungry_3.png" x="276" y="6" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="hungry_4.png" x="411" y="6" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="hungry_5.png" x="546" y="6" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="idle_1.png" x="681" y="6" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="idle_2.png" x="816" y="6" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="idle_3.png" x="6" y="151" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="idle_4.png" x="141" y="151" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="idle_5.png" x="276" y="151" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="move_1.png" x="411" y="151" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="move_2.png" x="546" y="151" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="move_3.png" x="681" y="151" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="move_4.png" x="816" y="151" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="move_5.png" x="6" y="296" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="tired_1.png" x="141" y="296" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="tired_2.png" x="276" y="296" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="tired_3.png" x="411" y="296" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="tired_4.png" x="546" y="296" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+    <sprite n="tired_5.png" x="681" y="296" w="128" h="138" pX="0.5" pY="0.5" oX="0" oY="0" oW="124" oH="136"/>
+</TextureAtlas>
