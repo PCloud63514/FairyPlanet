@@ -3,10 +3,7 @@ package com.pcloud.fairyplanet_re.inface;
 import android.opengl.GLES10;
 import android.opengl.GLUtils;
 import android.os.Handler;
-<<<<<<< HEAD
 import android.util.Log;
-=======
->>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
 import android.view.WindowManager;
 
 import com.pcloud.fairyplanet_re.core.view.GLView;
@@ -19,11 +16,8 @@ import java.util.Map;
 
 import javax.microedition.khronos.opengles.GL10;
 
-<<<<<<< HEAD
 import static android.opengl.GLES10.GL_FRONT_AND_BACK;
 
-=======
->>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
 /**
  * Created by PCloud on 2018-06-15.
  */
@@ -56,10 +50,7 @@ public class FairyResource extends UnitResource {
 
     @Override
     public void draw(GL10 gl10) {//0.08f
-<<<<<<< HEAD
         gl10.glScalef(FairyInfo.getInstance().getVerticalFocus(), 1.0f, -0.0f);
-=======
->>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
         if (fpsManager.isElapsed(1.08f)) {
             int size = actionImageHandles.get(FairyInfo.getInstance().getUnitAction()).size();
             int min = actionImageHandles.get(FairyInfo.getInstance().getUnitAction()).get(0);
@@ -72,24 +63,12 @@ public class FairyResource extends UnitResource {
             }
         }
 
-<<<<<<< HEAD
 //        gl10.glEnable(GL10.GL_TEXTURE_2D);
-=======
-        gl10.glEnable(GL10.GL_TEXTURE_2D);
->>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
         gl10.glBindTexture(GL10.GL_TEXTURE_2D, focus);
         gl10.glTexCoordPointer(2, GL10.GL_FLOAT, 0, textureBuffer);
         gl10.glVertexPointer(3, GL10.GL_FLOAT, 0, floatBuffer);//텍스쳐 좌표설졍
         gl10.glDrawElements(GL10.GL_TRIANGLES, index.length, GL10.GL_UNSIGNED_BYTE, indexBuffer);//그리기 부분.
         //TODO 메시지를 너무 많이 보내지않는건가 생각됨 프레임 처리를 해야할 거라 생각된다.
-<<<<<<< HEAD
-=======
-        if (isMove(FairyInfo.getInstance().getUnitAction())) {
-            layoutParams.x = FairyInfo.getInstance().getWindowPointX() + 1;
-            FairyInfo.getInstance().setWindowPointX(layoutParams.x);
-            handler.post(runnable);
-        }
->>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
 //        gl10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MIN_FILTER, GL10.GL_NEAREST);
 //        gl10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
 
@@ -104,7 +83,6 @@ public class FairyResource extends UnitResource {
 //        gl10.glDisableClientState(GL10.GL_VERTEX_ARRAY);
 //        gl10.glDisableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
     }
-<<<<<<< HEAD
 
     @Override
     public void move(GL10 gl10) {
@@ -124,6 +102,4 @@ public class FairyResource extends UnitResource {
             handler.post(runnable);
         }
     }
-=======
->>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
 }
