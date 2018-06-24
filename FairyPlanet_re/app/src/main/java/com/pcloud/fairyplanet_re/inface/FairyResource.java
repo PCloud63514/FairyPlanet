@@ -28,11 +28,12 @@ public class FairyResource extends UnitResource {
     private Runnable runnable = new Runnable() {
         @Override
         public void run() {
-            windowManager.updateViewLayout(glView,layoutParams);
+            windowManager.updateViewLayout(glView, layoutParams);
         }
     };
+
     public FairyResource(GLView glView, Handler handler, WindowManager windowManager, WindowManager.LayoutParams layoutParams) {
-        super(FairyInfo.getInstance(),glView, handler, windowManager, layoutParams);
+        super(FairyInfo.getInstance(), glView, handler, windowManager, layoutParams);
         this.actionImageHandles = new HashMap<>();
     }
 
@@ -87,18 +88,26 @@ public class FairyResource extends UnitResource {
     @Override
     public void move(GL10 gl10) {
         if (isMove(FairyInfo.getInstance().getUnitAction())) {
-            if(FairyInfo.getInstance().getVerticalFocus() == 1 && FairyInfo.getInstance().getWindowPointX() <= FairyInfo.getInstance().getWindowMaxX()) {
+            if (FairyInfo.getInstance().getVerticalFocus() == 1 && FairyInfo.getInstance().getWindowPointX() <= FairyInfo.getInstance().getWindowMaxX()) {
                 layoutParams.x = FairyInfo.getInstance().getWindowPointX() + 1;
-            } else if(FairyInfo.getInstance().getVerticalFocus() == -1 && FairyInfo.getInstance().getWindowPointX() <= FairyInfo.getInstance().getWindowPointX()){
+            } else if (FairyInfo.getInstance().getVerticalFocus() == -1 && FairyInfo.getInstance().getWindowPointX() <= FairyInfo.getInstance().getWindowPointX()) {
                 layoutParams.x = FairyInfo.getInstance().getWindowPointX() - 1;
             } else {
-                Log.d("TSET","발동!");
+                Log.d("TSET", "발동!");
                 FairyInfo.getInstance().setVerticalFocus();
                 gl10.glScalef(FairyInfo.getInstance().getVerticalFocus(), 1.0f, -0.0f);
             }
+
+            if (FairyInfo.getInstance().getHorizontalFocus() == 1 && FairyInfo.getInstance().getWindowPointY() <= FairyInfo.getInstance().getWindowMaxY()) {
+                layoutParams.y = FairyInfo.getInstance().getWindowPointY() + 1;
+            } else if (FairyInfo.getInstance().getHorizontalFocus() == -1 && FairyInfo.getInstance().getWindowPointY() <= FairyInfo.getInstance().getWindowMaxY()) {
+                layoutParams.y = FairyInfo.getInstance().getWindowPointY() - 1;
+            }
+
             FairyInfo.getInstance().setWindowPointX(layoutParams.x);
-            Log.d("TEST","vertical:" + FairyInfo.getInstance().getVerticalFocus());
-            Log.d("TEST","X:" + FairyInfo.getInstance().getWindowPointX());
+            FairyInfo.getInstance().setWindowPointY(layoutParams.y);
+            Log.d("TEST", "vertical:" + FairyInfo.getInstance().getVerticalFocus());
+            Log.d("TEST", "X:" + FairyInfo.getInstance().getWindowPointX());
             handler.post(runnable);
         }
     }

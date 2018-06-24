@@ -144,6 +144,7 @@ public class UnitImpl extends Publicher implements Unit {
         for (int i = 0; i < unitActionList.size(); i++) {
             if (target <= f * (i + 1)) {
                 FairyInfo.getInstance().setVerticalFocus();
+                FairyInfo.getInstance().setHorizontalFocus();
                 FairyInfo.getInstance().setUnitAction(unitActionList.get(i));
                 break;
             }
@@ -162,7 +163,7 @@ public class UnitImpl extends Publicher implements Unit {
         notifyObserver();
         //TODO 반복
         //TODO 1~5초 사이 랜덤
-        handler.postDelayed(runnable, (random.nextInt(4) + 1) * 1000);
+        handler.postDelayed(runnable, (random.nextInt(3) + 2) * 1000);
     }
 
     //TODO 종료했을 때 옵저버들에게 종료됨을 알려야한다.

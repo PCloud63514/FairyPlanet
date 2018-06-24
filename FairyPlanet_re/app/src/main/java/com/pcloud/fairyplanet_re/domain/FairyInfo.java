@@ -198,8 +198,48 @@ public class FairyInfo extends UnitInfo {
     }
 
     public void setHorizontalFocus() {
-        //현재 좌표가 음수인지 양수인지 구함
+//TODO 현재 좌표가 음수인지 양수인지 구함 0일 경우 리턴
+        //520/100 = 5.2
+        if(random.nextFloat() <= 0.5f) {
+            if (0 < windowPointY) {
+                //돌지않을 확률
+                float turnProb = (1.0f - ((float) windowPointY / getWindowMaxY())) / 2.0f;
+                Log.d("Turn", String.valueOf(turnProb));
+                if (turnProb < random.nextFloat()) {
+                    horizontalFocus = -1;
+                } else {
+                    horizontalFocus = 1;
+                }
+
+            } else if (0 > windowPointY) {
+                //음수
+                //돌지않을 확률
+                float turnProb = (1.0f - ((float) -windowPointY / getWindowMaxY())) / 2.0f;
+                Log.d("Turn", String.valueOf(turnProb));
+                if (turnProb < random.nextFloat()) {
+                    //회전
+                    horizontalFocus = 1;
+                } else {
+                    //가만히
+                    horizontalFocus = -1;
+                }
+            } else {
+                if (random.nextFloat() <= 0.49f) {
+                    horizontalFocus = -1;
+                } else {
+                    horizontalFocus = 1;
+                }
+                return;
+            }
+        } else {
+            horizontalFocus = 0;
+        }
         //음수일 경우 음수 최대 양수일 경우 양수 최대를 기준으로함
+        //양 MAX 500/-500 이라했을 경우 현재 좌표 50 기본 확률 0.0~0.5/0.51~0.99
+        //50/(500/100) = 10/100 = 0.1  오른쪽0.4 왼쪽0.6이 나오도록 계산해야함.
+        //1 - 0.1 =  0.9 / 2 = 오른쪽
+        //1 - 오른쪽 = 왼쪽
+        //계산끝났당.
     }
 
     @Override
