@@ -1,5 +1,6 @@
 package com.pcloud.fairyplanet_re.domain;
 
+<<<<<<< HEAD
 import android.util.DisplayMetrics;
 import android.util.Log;
 
@@ -9,6 +10,12 @@ import com.pcloud.fairyplanet_re.util.SaveManager;
 
 import java.text.SimpleDateFormat;
 import java.util.Random;
+=======
+import com.pcloud.fairyplanet_re.inface.UnitAction;
+import com.pcloud.fairyplanet_re.util.SaveManager;
+
+import java.text.SimpleDateFormat;
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
 
 /**
  * Created by PCloud on 2018-06-17.
@@ -25,11 +32,14 @@ public class FairyInfo extends UnitInfo {
     private UnitAction unitAction;
     private double previous;
 
+<<<<<<< HEAD
 
     private Random random;
     private int verticalFocus = 1; // -1 left 1 right
     private int horizontalFocus = 1;// 1 up -1 down
 
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
     public FairyInfo(String unitName, int health, double hunger, double tired, int feelings, String unitAction, double previous) {
         this.unitName = unitName;
         this.health = health;
@@ -38,7 +48,10 @@ public class FairyInfo extends UnitInfo {
         this.feelings = feelings;
         setUnitAction(unitAction);
         this.previous = previous;
+<<<<<<< HEAD
         this.random = new Random(System.currentTimeMillis());
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
     }
 
     public static synchronized FairyInfo getInstance() {
@@ -139,6 +152,7 @@ public class FairyInfo extends UnitInfo {
         }
     }
 
+<<<<<<< HEAD
     public int getVerticalFocus() {
         return verticalFocus;
     }
@@ -148,6 +162,8 @@ public class FairyInfo extends UnitInfo {
         return horizontalFocus;
     }
 
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
     public double getPrevious() {
         return previous;
     }
@@ -156,6 +172,7 @@ public class FairyInfo extends UnitInfo {
         this.previous = previous;
     }
 
+<<<<<<< HEAD
     public void setVerticalFocus() {
         //TODO 현재 좌표가 음수인지 양수인지 구함 0일 경우 리턴
         //520/100 = 5.2
@@ -202,6 +219,8 @@ public class FairyInfo extends UnitInfo {
         //음수일 경우 음수 최대 양수일 경우 양수 최대를 기준으로함
     }
 
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
     @Override
     public String toString() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd / HH:mm:ss");
@@ -216,9 +235,12 @@ public class FairyInfo extends UnitInfo {
                         + "\ntired:" + String.format("%.1f",tired)
                         + "\nfeelings:" + feelings
                         + "\nunitAction:" + unitActionToString()
+<<<<<<< HEAD
                         + "\nVerticalFocus:" + getVerticalFocus()
                         + "\nWindowX:" + getWindowPointX()
                         + "\nWindowY:" + getWindowPointY()
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
                         + "\n===============================\n");
     }
 }

@@ -5,10 +5,19 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.opengl.GLES10;
 import android.opengl.GLUtils;
+<<<<<<< HEAD
 
 import com.pcloud.fairyplanet_re.domain.SpriteInfo;
 import com.pcloud.fairyplanet_re.domain.TexturePacker;
 import com.pcloud.fairyplanet_re.domain.UnitInfo;
+=======
+import android.util.Log;
+
+import com.pcloud.fairyplanet_re.domain.UnitInfo;
+import com.pcloud.fairyplanet_re.inface.UnitResource;
+import com.pcloud.fairyplanet_re.domain.SpriteInfo;
+import com.pcloud.fairyplanet_re.domain.TexturePacker;
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
 import com.pcloud.fairyplanet_re.inface.UnitAction;
 
 import java.io.InputStream;
@@ -44,7 +53,10 @@ public class ResourceLoader {
         GLES10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MIN_FILTER, GL10.GL_NEAREST);
         GLES10.glTexParameterf(GL10.GL_TEXTURE_2D, GL10.GL_TEXTURE_MAG_FILTER, GL10.GL_LINEAR);
         GLUtils.texImage2D(GL10.GL_TEXTURE_2D,0, bitmap,0);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
         return textureIds[0];
     }
 

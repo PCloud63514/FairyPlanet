@@ -114,7 +114,10 @@ public class UnitImpl extends Publicher implements Unit {
     }
 
     private void checkAction() {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
         unitActionList.add(UnitAction.idle);
         unitActionList.add(UnitAction.move);
 
@@ -143,12 +146,18 @@ public class UnitImpl extends Publicher implements Unit {
 
         for (int i = 0; i < unitActionList.size(); i++) {
             if (target <= f * (i + 1)) {
+<<<<<<< HEAD
                 FairyInfo.getInstance().setVerticalFocus();
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
                 FairyInfo.getInstance().setUnitAction(unitActionList.get(i));
                 break;
             }
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
         unitActionList.clear();
     }
 
@@ -161,8 +170,13 @@ public class UnitImpl extends Publicher implements Unit {
         //TODO 옵저버에게 업데이트 알림.
         notifyObserver();
         //TODO 반복
+<<<<<<< HEAD
         //TODO 1~5초 사이 랜덤
         handler.postDelayed(runnable, (random.nextInt(4) + 1) * 1000);
+=======
+        //TODO 1~8초 사이 랜덤
+        handler.postDelayed(runnable, (random.nextInt(6) + 2) * 1000);
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
     }
 
     //TODO 종료했을 때 옵저버들에게 종료됨을 알려야한다.

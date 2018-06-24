@@ -32,9 +32,12 @@ public class GLRenderer implements GLSurfaceView.Renderer {
         gl10.glEnableClientState(GL10.GL_VERTEX_ARRAY);
         gl10.glEnable(GL10.GL_DEPTH_TEST);
         gl10.glEnable(GL10.GL_TEXTURE_2D);
+<<<<<<< HEAD
 
         gl10.glDisable(GL10.GL_CULL_FACE);
 
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
         gl10.glEnableClientState(GL10.GL_TEXTURE_COORD_ARRAY);
         //TODO 이미지 로딩 및 바인딩
         try {
@@ -52,9 +55,17 @@ public class GLRenderer implements GLSurfaceView.Renderer {
     @Override
     public void onDrawFrame(GL10 gl10) {
         gl10.glClear(GL10.GL_COLOR_BUFFER_BIT|GL10.GL_DEPTH_BUFFER_BIT);
+<<<<<<< HEAD
         gl10.glLoadIdentity();//해당 설정된 메트릭스를 초기화하는 것. 메트릭스를 단위행렬로 만드는 일을 한다.
         gl10.glCullFace(GL10.GL_FRONT);
         unitResource.draw(gl10);
         unitResource.move(gl10);
+=======
+        gl10.glLoadIdentity();
+        gl10.glTranslatef(0.0f, 0.0f, -0.0f);
+        unitResource.draw(gl10);
+
+//        fairy.draw(gl10);
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
     }
 }

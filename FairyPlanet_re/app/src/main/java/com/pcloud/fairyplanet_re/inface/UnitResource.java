@@ -82,10 +82,13 @@ public class UnitResource {
 
     }
 
+<<<<<<< HEAD
     public void move(GL10 gl10) {
 
     }
 
+=======
+>>>>>>> 4d260320174275cfe21996d3b807158c21fd9e54
     public FloatBuffer ArrayToBuffer(float[] f) {
         ByteBuffer buf = ByteBuffer.allocateDirect(f.length * 4);
         buf.order(ByteOrder.nativeOrder());
