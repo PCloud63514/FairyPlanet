@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "attack/metal-slime-2.png",
+	"frame": {"x":0,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "attack/metal-slime-3.png",
+	"frame": {"x":189,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "attack/metal-slime-4.png",
+	"frame": {"x":378,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "attack/metal-slime-5.png",
+	"frame": {"x":567,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Death/metal-slime-9.png",
+	"frame": {"x":756,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Death/metal-slime-10.png",
+	"frame": {"x":945,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Death/metal-slime-11.png",
+	"frame": {"x":1134,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Death/metal-slime-12.png",
+	"frame": {"x":1323,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Hurt/metal-slime-15.png",
+	"frame": {"x":1512,"y":0,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Hurt/metal-slime-16.png",
+	"frame": {"x":0,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Idle/metal-slime-19.png",
+	"frame": {"x":189,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Idle/metal-slime-20.png",
+	"frame": {"x":378,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Idle/metal-slime-21.png",
+	"frame": {"x":567,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Idle/metal-slime-22.png",
+	"frame": {"x":756,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Move/metal-slime-25.png",
+	"frame": {"x":945,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Move/metal-slime-26.png",
+	"frame": {"x":1134,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Move/metal-slime-27.png",
+	"frame": {"x":1323,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+},
+{
+	"filename": "Move/metal-slime-28.png",
+	"frame": {"x":1512,"y":192,"w":189,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":189,"h":192},
+	"sourceSize": {"w":189,"h":192}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "data.png",
+	"format": "RGBA8888",
+	"size": {"w":1701,"h":384},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d387c84d221d0d33b80bb7c1e244887d:69e71fecae865ee87ac11d9821de28fc:188fa90ea8d99ef04ad566f057518186$"
+}
+}

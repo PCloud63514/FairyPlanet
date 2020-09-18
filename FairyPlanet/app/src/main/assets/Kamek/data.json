@@ -1,0 +1,444 @@
+{"frames": [
+
+{
+	"filename": "attack/Kamek-3.png",
+	"frame": {"x":0,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "attack/Kamek-4.png",
+	"frame": {"x":113,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "attack/Kamek-5.png",
+	"frame": {"x":226,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "idle/Kamek-0.png",
+	"frame": {"x":339,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "idle/Kamek-1.png",
+	"frame": {"x":452,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "idle/Kamek-2.png",
+	"frame": {"x":565,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-9.png",
+	"frame": {"x":678,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-10.png",
+	"frame": {"x":791,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-11.png",
+	"frame": {"x":904,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-12.png",
+	"frame": {"x":1017,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-13.png",
+	"frame": {"x":1130,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-14.png",
+	"frame": {"x":1243,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-15.png",
+	"frame": {"x":1356,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-16.png",
+	"frame": {"x":1469,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-17.png",
+	"frame": {"x":1582,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-18.png",
+	"frame": {"x":1695,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-19.png",
+	"frame": {"x":1808,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-20.png",
+	"frame": {"x":1921,"y":0,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-21.png",
+	"frame": {"x":0,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-22.png",
+	"frame": {"x":113,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-23.png",
+	"frame": {"x":226,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-24.png",
+	"frame": {"x":339,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-25.png",
+	"frame": {"x":452,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-26.png",
+	"frame": {"x":565,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-27.png",
+	"frame": {"x":678,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-28.png",
+	"frame": {"x":791,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-29.png",
+	"frame": {"x":904,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-30.png",
+	"frame": {"x":1017,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-31.png",
+	"frame": {"x":1130,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-32.png",
+	"frame": {"x":1243,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-33.png",
+	"frame": {"x":1356,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-34.png",
+	"frame": {"x":1469,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-35.png",
+	"frame": {"x":1582,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-36.png",
+	"frame": {"x":1695,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-37.png",
+	"frame": {"x":1808,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-38.png",
+	"frame": {"x":1921,"y":114,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-39.png",
+	"frame": {"x":0,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-40.png",
+	"frame": {"x":113,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-41.png",
+	"frame": {"x":226,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-42.png",
+	"frame": {"x":339,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-43.png",
+	"frame": {"x":452,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-44.png",
+	"frame": {"x":565,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-45.png",
+	"frame": {"x":678,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-46.png",
+	"frame": {"x":791,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-47.png",
+	"frame": {"x":904,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-48.png",
+	"frame": {"x":1017,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-49.png",
+	"frame": {"x":1130,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-50.png",
+	"frame": {"x":1243,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-51.png",
+	"frame": {"x":1356,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-52.png",
+	"frame": {"x":1469,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "Kamek-53.png",
+	"frame": {"x":1582,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "move/Kamek-6.png",
+	"frame": {"x":1695,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "move/Kamek-7.png",
+	"frame": {"x":1808,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+},
+{
+	"filename": "move/Kamek-8.png",
+	"frame": {"x":1921,"y":228,"w":113,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":113,"h":114},
+	"sourceSize": {"w":113,"h":114}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "data.png",
+	"format": "RGBA8888",
+	"size": {"w":2034,"h":342},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:92e5ae7ffe13ce5de58ebc04f751e83c:84303cc4f27e91e86ae2af73a4e7b99f:188fa90ea8d99ef04ad566f057518186$"
+}
+}
